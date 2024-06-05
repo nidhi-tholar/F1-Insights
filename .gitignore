@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+
+# Compiled Python files
+*.pyc
+
+# Python cache directory
+__pycache__/
+
+# Airflow
+airflow/*.log        # Airflow log files
+airflow/*.pid        # Airflow PID files
+
+# Jupyter Notebooks
+.ipynb_checkpoints/  # Jupyter notebook checkpoints
+
+# System/Editor files
+.DS_Store            # macOS system file
+
+# Visual Studio Code
+.vscode/             # Visual Studio Code editor directory
+
